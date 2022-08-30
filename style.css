@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  background: #f1efdc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d36b00;
+}
+
+h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+input,
+select {
+  display: block;
+  border: none;
+  width: 100%;
+  height: 35px;
+}
+
+p{
+  margin: 0;
+}
+
+.button-creator {
+  display: grid;
+  grid-gap: 30px;
+  padding: 30px;
+  grid-template-columns: 300px 1fr;
+}
+
+#controls {
+  font-size: 0.875rem;
+}
+
+section,
+#controls {
+  background: #e6d2aa;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+section.result button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.code {
+  margin-top: 1rem;
+  background-color: #1f1f1f;
+  color: gainsboro;
+}
+
+.css {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
